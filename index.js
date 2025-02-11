@@ -19,10 +19,10 @@ yesBtn.addEventListener('click', () => {
     noBtn.classList.add('no-cursor')
     celebratingAudio.play()
     sadAudio.pause()
-    h3.style.opacity = '100%'
     yesBtn.style.opacity = '0'
     noBtn.style.opacity = '0'
     h2.textContent = 'fishball daaaaate naaaaah'
+    h3.style.opacity = '0'
 })
 
 noBtn.addEventListener('click', () => {
