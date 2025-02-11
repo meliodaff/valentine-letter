@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Dancing+Script:wght@400;700&display=swap');
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightpink;
+    font-family: 'Great Vibes', cursive;
+    font-size: 2rem;
+                                    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Great Vibes', cursive;
+    padding: 10px 20px;
+}
+
+.no-cursor{
+    cursor: not-allowed;
+}
+
+
+
+.yes-btn{
+    background-color: green;
+}
+
+.no-btn{
+
+    background-color: red;
+}
+
+@media (max-width: 412px){
+    h1{
+        font-size: 50px;
+    }
+}
